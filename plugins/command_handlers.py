@@ -32,7 +32,7 @@ async def start(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /start command >> @{message.from_user.username}")
     await message.reply_text(
         f"<b>Hi {message.from_user.first_name} 👋\n"
-        "I can render website of a given link to either PDF or PNG/JPEG</b>",
+        "I can generate screenshot website of a given link to either PDF or PNG/JPEG</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("❓ About", callback_data="about_cb")
@@ -45,14 +45,14 @@ async def start(_: Client, message: Message) -> None:
 async def feedback(_: Client, message: Message) -> None:
     LOGGER.debug(f"USED_CMD --> /about command >> @{message.from_user.username}")
     await message.reply_text(
-        text="This project is open ❤️ source",
+        text="Hey there this bot is made of the sole purpose of screenshot generation",
         reply_markup=InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("👨🏻‍🦯 Source", url="https://github.com/alenpaul2001/Web-Screenshot-Bot"),
-                InlineKeyboardButton("❓ Bug Report", url="https://github.com/alenpaul2001/Web-Screenshot-Bot/issues")],
+                InlineKeyboardButton("Creator", url="https://t.me/lolboyisback"),
+                InlineKeyboardButton("Database", url="heroku.com")],
             [InlineKeyboardButton(
-                "🌃 Profile Icon Credit",
-                url="https://www.goodfon.com/wallpaper/art-vector-background-illustration-minimalism-angga-tanta-12.html")]
+                "Maintainer",
+                url="https://t.me/legendarykeys)]
             ])
     )
 
