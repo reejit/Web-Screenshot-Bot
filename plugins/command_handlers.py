@@ -52,7 +52,7 @@ async def feedback(_: Client, message: Message) -> None:
                 InlineKeyboardButton("Database", url="heroku.com")],
             [InlineKeyboardButton(
                 "Maintainer",
-                url="https://t.me/legendarykeys)]
+                url="https://t.me/legendarykeys")]
             ])
     )
 
