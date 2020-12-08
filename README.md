@@ -14,6 +14,7 @@ Telegram Bot that creates screenshot _[PNG/JPEG]_ or PDF of a given link. Can be
 2. 800x600
 3. 1280x720
 4. 2560x1440
+heroku.com/deploy
 
 Spliting of long pages is available for png and jpeg, upto 10 images is sent as mediagroup images above the count of 10 are zipped and send as document.
 
