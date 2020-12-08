@@ -45,7 +45,7 @@ class my():
 
 # Thanks to
 
-[Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
+[Dan Tès](https://heroku.com/deploy) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 
 [Mattwmaster58](https://github.com/Mattwmaster58) for the port of [Pyppeteer Library](https://github.com/pyppeteer/pyppeteer)
 
